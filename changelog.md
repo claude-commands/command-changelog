@@ -12,12 +12,14 @@ Generate a changelog from commits since the last release tag.
 **Usage:** `/changelog [starting-point]`
 
 **Examples:**
+
 - `/changelog` - Since last tag
 - `/changelog v1.2.0` - Since specific tag
 - `/changelog HEAD~50` - Last 50 commits
 - `/changelog 2024-01-01` - Since date
 
 **Workflow:**
+
 1. Find the latest git tag
 2. Parse commits using Conventional Commits format
 3. Group by type (Added, Fixed, Changed, etc.)

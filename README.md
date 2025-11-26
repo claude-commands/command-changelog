@@ -14,7 +14,7 @@ ln -s <clone-path>/command-changelog/changelog.md ~/.claude/commands/changelog.m
 
 ## Usage
 
-```
+```text
 /changelog           # Since last tag
 /changelog v1.2.0    # Since specific tag
 /changelog HEAD~50   # Last 50 commits
