@@ -1,7 +1,7 @@
 ---
 argument-hint: "[tag|version]"
 description: "Generate changelog from commits since last release"
-model: claude-sonnet-4-20250514
+model: claude-opus-4-5-20251101
 allowed-tools: ["Bash", "Read", "Glob", "Grep"]
 ---
 
